@@ -1,8 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Net.WebSockets;
+
 Console.WriteLine("Task2!");
 // 题目描述
 // 请编写一个程序，使用嵌套循环打印九九乘法表，格式如下：
 
+
+for (int i = 0; i < 9; i++)
+{
+    for (int j = i; j < 10; j++)
+    {
+        System.Console.Write($"{j}x{j + 1} ");
+    }
+    System.Console.WriteLine($"{i}x{i + 1}");
+}
 // Copy
 // Edit
 // 1×1=1  
