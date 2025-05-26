@@ -1,7 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("这是Task1");
 
-
+for (int i = 4; i > 0; i--)
+{
+    for (int j = i - 1; j > 0; j--)
+    {
+        System.Console.Write("-");
+    }
+    System.Console.WriteLine("*");
+}
 // 题目描述
 // 编写一个程序，提示用户输入一个正整数 n，然后使用嵌套循环打印一个直角三角形，形状如下（以 n=5 为例）：
 
